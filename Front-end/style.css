@@ -1,0 +1,100 @@
+h1 {
+    color: purple;
+}
+
+#header1 {
+    color: green;
+}
+p { 
+    color: blue; 
+  }
+  #latest { 
+    background-color: purple; 
+  }
+  .navigation { 
+    margin: 2px;
+  }
+  p.introduction { 
+    margin: 2px;
+  }
+  #blog h1 {
+    color: blue;
+  }
+  a:hover {
+    color: orange;
+  }
+  #blog > h1 {
+    color: blue;
+  }
+
+  /* WAYS TO REFERENCE A COLOR */
+  /* By RGB value,
+
+  By RGBA value,
+
+  By HSL value,
+
+  By hex value and
+
+  By predefined color names. */
+
+  /* RGB value */
+  p { 
+    color: rgb(255, 0, 0); 
+  }
+
+  /* RGBA value */
+  p { 
+    color: rgba(255, 0, 0, 0.8); 
+  }
+  /* Last digit indicate opacity */
+
+  /* HSL value */
+  p { 
+    color: hsl(0, 100%, 50%);
+  }
+
+  /* Text */
+  p { 
+    color: red;
+  }
+
+  /* Text Font and Size */
+  p { 
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+}
+
+/* Text Transformation */
+p { 
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 5px;
+}
+#middle{
+  display: block;
+}
+.parent {
+  border: 4px solid red;
+}
+.child {
+  width: 50%;
+  padding: 20px;
+  border: 4px solid green;
+}
+.child {
+  width: 50%;
+  padding: 20px;
+  border: 4px solid green;
+  margin: auto;
+}
+.child {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.child {
+  float: right;
+}
